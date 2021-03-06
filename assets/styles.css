@@ -1,0 +1,23 @@
+h1{
+    color: lightyellow;
+}
+img{
+    float: inline-start;
+}
+.titans{
+    background-image: url(https://i.pinimg.com/originals/b9/d8/91/b9d8916334d942b2eb41b00cd111b29a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2 > a{
+    color: red;
+    text-decoration: none;
+}
+.titans li > a{
+    color: beige;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
