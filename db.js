@@ -30,8 +30,8 @@ const syncAndSeed = async() => {
 
         INSERT INTO "Titans"(name) VALUES('Robin'), ('Beast-Boy'),('Star-Fire'),('Raven'),('Cyborg');
 
-        INSERT INTO "Members"(img,bio, titans_id) VALUES('http://pm1.narvii.com/7014/dc5ff639c8b252b5e5db21187529d2f2036c8641r1-413-356v2_00.jpg','${faker.lorem.paragraphs(2)}',1), ('https://i.pinimg.com/originals/b8/e1/09/b8e109a7f81b0e1b69f1869bd40fe897.jpg','${faker.lorem.paragraphs(2)}',2),('https://static.wikia.nocookie.net/marvel_dc/images/5/50/Starfire_tv2.jpg/revision/latest/top-crop/width/360/height/450?cb=20051025060353','${faker.lorem.paragraphs(2)}',3),
-        ('https://static.wikia.nocookie.net/theteentitans/images/9/9a/Raven.jpg/revision/latest/scale-to-width-down/340?cb=20201106071206','${faker.lorem.paragraphs(2)}',4),('https://static.wikia.nocookie.net/theteentitans/images/1/11/Cy.jpg/revision/latest/scale-to-width-down/340?cb=20120717132219','${faker.lorem.paragraphs(2)}',5);
+        INSERT INTO "Members"(img,bio, titans_id) VALUES('http://pm1.narvii.com/7014/dc5ff639c8b252b5e5db21187529d2f2036c8641r1-413-356v2_00.jpg','${faker.lorem.paragraphs(2)}',1), ('https://i.pinimg.com/originals/b8/e1/09/b8e109a7f81b0e1b69f1869bd40fe897.jpg','${faker.lorem.paragraphs(2)}',2),('https://assets.mycast.io/actor_images/actor-starfire-teen-titans-207984_large.jpg?1619820564','${faker.lorem.paragraphs(2)}',3),
+        ('https://imgix.bustle.com/rehost/2016/9/13/19072080-d6e6-47a4-98d3-47fe27f29b4c.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress','${faker.lorem.paragraphs(2)}',4),('https://i.pinimg.com/originals/84/81/fe/8481fe1577b7ff0b09cbe13e35c9b97a.jpg','${faker.lorem.paragraphs(2)}',5);
 
     `;
     await client.query(SQL);
